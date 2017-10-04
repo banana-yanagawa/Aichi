@@ -210,6 +210,7 @@ public class OmikujiDAO {
 		ResultSet rs3 = stmt.executeQuery(sql6);
 
 		int cnt = 0;
+
 		while(rs3.next()){
 			rs3.getInt(1);
 
